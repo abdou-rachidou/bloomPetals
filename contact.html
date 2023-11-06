@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h2>BloomPettals</h2>
+        <h1>L'entreprise bloomPettals et toute son équipe vous offrent un service de qualité</h1>
+    </header>
+    <h3>CONTACTEZ-NOUS VIA LE FORMULAIRE CI-DESSOUS</h3>
+    <hr class="light">
+    <form action="traitement_formulaire.php" method="post">
+
+        <label for="nom">Civilité :</label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="nom">Nom et prénom :</label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="nom">Adresse postale :</label>
+        <input type="text" id="nom" name="nom" required><br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea><br>
+        <form action="traitement_formulaire.php" method="post">
+
+        <label for="confidentialite">J'accepte les politiques de confidentialité de l'entreprise :</label>
+        <input type="checkbox" id="confidentialite" name="confidentialite" required>
+        <input type="submit" value="Valider">
+    </form>
+    
+</body>
+</html>

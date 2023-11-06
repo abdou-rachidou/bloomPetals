@@ -1,0 +1,92 @@
+h2{
+    display: flex;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: left;
+    color: aqua;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1200px;
+    padding: 20px, 10px, 5px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+body{
+        text-align: auto ;
+        margin: 13%;
+        margin-top: 1cm;
+        background-color: ghostwhite;
+        font-size: medium;
+}
+
+h3{
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.5rem;
+    font-size: medium;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
